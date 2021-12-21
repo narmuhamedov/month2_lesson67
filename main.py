@@ -1,16 +1,5 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+numbers = [2, 7, 11, 15, 3, 4, 6]
+desired_sum = int(input('Введите желаемую сумму '))
+for i in range(len(numbers)-1):
+    if (numbers[i]+(numbers[i+1])) == desired_sum:
+        print([i, i+1])
