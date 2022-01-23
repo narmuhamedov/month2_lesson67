@@ -60,7 +60,14 @@
 # print(num)
 # print(num.quick_sort())
 
-
+class Test:
+    def print_text(self):
+        print('ddfdf')
+class Test2(Test):
+    def print_text(self):
+        print('cccc')
+test2 = Test2()
+test2.print_text()
 
 
 
